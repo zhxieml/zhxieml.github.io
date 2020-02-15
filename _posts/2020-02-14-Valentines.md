@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 总在你身边
-# cover: Valentines.jpg
+cover: Valentines.jpg
 date:   2020-02-14 22:00:00
 categories: posts
 ---
