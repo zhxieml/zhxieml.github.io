@@ -5,7 +5,6 @@ cover: gamble.jpg
 date:   2020-02-27 17:00:00
 category: blog
 tag: daily
-typora-root-url: fffffarmer.github.io
 ---
 
 >  对手上的[`X1 Carbon`](https://www.lenovo.com/us/en/laptops/thinkpad/thinkpad-x/ThinkPad-X1-Carbon-5th-Gen/p/22TP2TXX15G)越来越看不惯了。风风雨雨两年半，虽日夜蹂躏却也未曾在关键时刻掉过链子。廉颇老矣，唯以小博大，配件更替，方能拯救其于痛苦之中。
@@ -38,5 +37,5 @@ Type-C口？音频线无碍，再排除。
 
 更换过程本充满乐趣，只是被操蛋的B面毁了。费了六七张名片，洗发店会员卡发夹都用上了，才一点点扣下B面，期间还经历了一次按压面板的可怕体验。可算屏幕不错，无坏点无拖影，轻微漏光都属正常，重要的是色彩艳丽，所谓Dolby屏也不仅仅靠塞钱可拥有。
 
-![/images/display.jpg]()
+![fffffarmer.github.io/images/display.jpg]()
 
