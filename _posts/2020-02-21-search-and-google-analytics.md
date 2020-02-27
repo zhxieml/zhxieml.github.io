@@ -7,7 +7,7 @@ category: blog
 tag: tech
 ---
 
-Blog页面看着有点单调，闲来无事加上搜索功能和流量统计，感谢优秀项目[Simple Jekyll Search](https://github.com/christian-fei/Simple-Jekyll-Search)和[Google Analytics](https://analytics.google.com/)。
+> Blog页面看着有点单调，闲来无事加上搜索功能和流量统计，感谢优秀项目[Simple Jekyll Search](https://github.com/christian-fei/Simple-Jekyll-Search)和[Google Analytics](https://analytics.google.com/)。
 
 ## Simple Jekyll Search
 一个简单易用的轻量Blog搜索功能，不多不少地满足了我的需求。开源万岁！
