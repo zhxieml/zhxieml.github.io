@@ -3,7 +3,8 @@ layout: post
 title: <改造> 添加搜索和流量统计
 cover: Google-Analytics.jpg
 date:   2020-02-21 17:00:00
-categories: posts
+category: blog
+tag: tech
 ---
 
 Blog页面看着有点单调，闲来无事加上搜索功能和流量统计，感谢优秀项目[Simple Jekyll Search](https://github.com/christian-fei/Simple-Jekyll-Search)和[Google Analytics](https://analytics.google.com/)。
