@@ -1,6 +1,6 @@
 ---
 layout: post
-title: <改造> 添加搜索和流量统计
+title: 添加搜索和流量统计
 cover: Google-Analytics.jpg
 date:   2020-02-21 17:00:00
 category: blog
