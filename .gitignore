@@ -1,5 +1,13 @@
+# IDE
+.vscode
+*.code-workspace
+
 # jekyll
 _site
+.jekyll-cache
+
+# Gemfile
+Gemfile.lock
 
 # npm
 node_modules
