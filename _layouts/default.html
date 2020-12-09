@@ -5,7 +5,7 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
       <title>fffffarmer一个人呆在这 - {{ page.title }}</title>
       <meta name="viewport" content="width=device-width">
-      
+
       <!-- syntax highlighting CSS -->
       <link rel="stylesheet" href="/css/syntax.css">
 
@@ -33,18 +33,20 @@
         <div class="posts">
           <ul class="posts-list">
             {% for post in site.posts %}
-              <li class="post-link">
-                <a class="post-title" href="{{ post.url }}">
-                  <span class="post-date">{{ post.date | date_to_string }}</span>
-                  {{ post.title }}
-                </a>
-              </li>
+              {% if post.visible %}
+                <li class="post-link">
+                  <a class="post-title" href="{{ post.url }}">
+                    <span class="post-date">{{ post.date | date_to_string }}</span>
+                    {{ post.title }}
+                  </a>
+                </li>
+              {% endif %}
             {% endfor %}
           </ul>
         </div>
         <div class="footer">
           <span id="footer-links">
-            <a href="" class="footer-link">About</a> <span class="separator">&bull;</span>
+            <a href="{{ site.url }}" class="footer-link">About</a> <span class="separator">&bull;</span>
             <a href="https://twitter.com/fffffarmer1" class="footer-link">Twitter</a> <span class="separator">&bull;</span>
             <a href="https://github.com/fffffarmer" class="footer-link">GitHub</a>
           </span>
@@ -73,7 +75,7 @@
         exclude: ['Welcome']
       })
     </script>
-    
+
     {% include google-analytics.html %}
   </body>
 </html>

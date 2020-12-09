@@ -5,6 +5,7 @@ cover: Google-Analytics.jpg
 date:   2020-02-21 17:00:00
 category: blog
 tag: tech
+visible: true
 ---
 
 > Blog页面看着有点单调，闲来无事加上搜索功能和流量统计，感谢优秀项目[Simple Jekyll Search](https://github.com/christian-fei/Simple-Jekyll-Search)和[Google Analytics](https://analytics.google.com/)。
@@ -68,10 +69,10 @@ layout: null
 	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-  
+
 	ga('create', '{{ site.google_analytics }}', 'auto');
 	ga('send', 'pageview');
-  
+
 </script>
 ```
 
