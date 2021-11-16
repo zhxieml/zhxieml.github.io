@@ -7,7 +7,7 @@ date: 2020-12-09 13:22:00
 Hi!
 
 I’m a master student at Shanghai Jiao Tong University, under the supervision of Prof. [Shuai Li](http://shuaili8.github.io/).
-Before that, I received my Bachelor's degree from IEEE Honor Class, Shanghai Jiao Tong University, where I was fortunate to work Prof [Junchi Yan](https://thinklab.sjtu.edu.cn/).
+Before that, I received my Bachelor's degree from IEEE Honor Class, Shanghai Jiao Tong University, where I was fortunate to work with Prof. [Junchi Yan](https://thinklab.sjtu.edu.cn/).
 I was a research intern at Tencent AI Lab (Apr 2021 - Sep 2021) and XYZ Robotics (Jul 2020 - Oct 2020).
 
 ## News
