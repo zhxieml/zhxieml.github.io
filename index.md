@@ -1,7 +1,7 @@
 ---
 layout: about
 title: Zhihui Xie (谢知晖)
-date: 2020-12-09 13:22:00
+date: 2022-04-01 16:06:00
 ---
 
 Hi!
@@ -11,6 +11,8 @@ Before that, I received my Bachelor's degree from IEEE Honor Class, Shanghai Jia
 I was a research intern at Tencent AI Lab (Apr 2021 - Sep 2021) and XYZ Robotics (Jul 2020 - Oct 2020).
 
 ## News
+- [Apr. 2022] One paper accepted by SIGIR 2022.
+- [Jan. 2022] One paper accepted by WWW 2022.
 - [Oct. 2021] One paper accepted by NeurIPS 2021 Offline RL workshop.
 - [Oct. 2021] I was awarded the National Scholarship! Many thanks!
 - [Sep. 2021] I had a wonderful internship at Tencent AI Lab, mentored by Dr. [Peilin Zhao](https://peilinzhao.github.io/).
