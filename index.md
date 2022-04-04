@@ -28,7 +28,7 @@ I was a research intern at Tencent AI Lab (Apr 2021 - Sep 2021) and XYZ Robotics
     WWW'22
 - **Comparison-based Conversational Recommender System with Relative Bandit Feedback**  
     **Zhihui Xie**, Tong Yu, Canzhe Zhao, Shuai Li  
-    SIGIR'21
+    SIGIR'21 [[code](https://github.com/fffffarmer/RelativeConUCB)]
 - **Layered Neighborhood Expansion for Incremental Multiple Graph Matching**  
     Zixuan Chen, **Zhihui Xie**, Junchi Yan, Yinqiang Zheng, Xiaokang Yang  
-    ECCV'20
+    ECCV'20 [[code](https://github.com/fffffarmer/LNE_IMGM)]
