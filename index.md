@@ -26,10 +26,10 @@ I was a research intern at Tencent AI Lab (Apr 2021 - Sep 2021) and XYZ Robotics
     SIGIR'22 [[paper](https://fffffarmer.github.io/publications/SIGIR'22.pdf)]
 - **Knowledge-aware Conversational Preference Elicitation with Bandit Feedback**  
     Canzhe Zhao, Tong Yu, **Zhihui Xie**, Shuai Li  
-    WWW'22
+    WWW'22 [[paper](https://fffffarmer.github.io/publications/WWW'22.pdf)]
 - **Comparison-based Conversational Recommender System with Relative Bandit Feedback**  
     **Zhihui Xie**, Tong Yu, Canzhe Zhao, Shuai Li  
     SIGIR'21 [[paper](https://fffffarmer.github.io/publications/SIGIR'21.pdf)] [[code](https://github.com/fffffarmer/RelativeConUCB)]
 - **Layered Neighborhood Expansion for Incremental Multiple Graph Matching**  
     Zixuan Chen, **Zhihui Xie**, Junchi Yan, Yinqiang Zheng, Xiaokang Yang  
-    ECCV'20 [[code](https://github.com/fffffarmer/LNE_IMGM)]
+    ECCV'20 [[paper](https://fffffarmer.github.io/publications/ECCV'20.pdf)] [[code](https://github.com/fffffarmer/LNE_IMGM)]
