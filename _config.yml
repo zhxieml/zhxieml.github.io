@@ -2,8 +2,11 @@ name: fffffarmer一个人呆在这
 markdown: kramdown
 highlighter: rouge
 google_analytics: UA-158801170-1
-plugins:
-  - jekyll-last-modified-at
-# Optional. The default date format, used if none is specified in the tag.
-last-modified-at:
-    date-format: '%d-%b-%y'
+# plugins:
+#   - jekyll-last-modified-at
+# last-modified-at:
+#   date-format: '%d-%b-%y'
+collections:
+  publications:
+    # output: true
+    # permalink: /:collection/:name
