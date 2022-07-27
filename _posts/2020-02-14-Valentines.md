@@ -9,4 +9,4 @@ visible: false
 ---
 
 因为被困杜猪家中每天低头不见抬头见而迟到一天的情人节礼物
-[![heart](/images/heart.png)](https://fffffarmer.github.io/Valentines)
+[![heart](/assets/images/heart.png)](https://fffffarmer.github.io/Valentines)

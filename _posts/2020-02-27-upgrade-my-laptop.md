@@ -38,5 +38,5 @@ Type-C口？音频线无碍，再排除。
 
 更换过程本充满乐趣，只是被操蛋的B面毁了。费了六七张名片，洗发店会员卡发夹都用上了，才一点点扣下B面，期间还经历了一次按压面板的可怕体验。可算屏幕不错，无坏点无拖影，轻微漏光都属正常，重要的是色彩艳丽，所谓Dolby屏也不仅仅靠塞钱可拥有。
 
-![display]({{ site.url }}/images/display.jpg)
+![display]({{ site.url }}/assets/images/display.jpg)
 
