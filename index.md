@@ -1,7 +1,7 @@
 ---
 layout: about
 title: Zhihui Xie (谢知晖)
-date: 2022-04-04 23:13:00
+date: 2022-07-28 11:08:00
 ---
 
 Hi!
@@ -19,17 +19,5 @@ I was a research intern at Tencent AI Lab (Apr 2021 - Sep 2021) and XYZ Robotics
 - [Apr. 2021] One paper accepted by SIGIR 2021.
 - [July 2020] One paper accepted by ECCV 2020.
 
-## Publications
-- **Doubly-Adaptive Reinforcement Learning for Cross-Domain Interactive Recommendation**  
-    Junda Wu\*, **Zhihui Xie**\*, Tong Yu, Handong Zhao, Ruiyi Zhang, Shuai Li
-    (previous version in NeurIPS'21 Offline RL Workshop: [link](https://offline-rl-neurips.github.io/2021/pdf/50.pdf))    
-    SIGIR'22 [[paper](https://fffffarmer.github.io/publications/SIGIR'22.pdf)]
-- **Knowledge-aware Conversational Preference Elicitation with Bandit Feedback**  
-    Canzhe Zhao, Tong Yu, **Zhihui Xie**, Shuai Li  
-    WWW'22 [[paper](https://fffffarmer.github.io/publications/WWW'22.pdf)]
-- **Comparison-based Conversational Recommender System with Relative Bandit Feedback**  
-    **Zhihui Xie**, Tong Yu, Canzhe Zhao, Shuai Li  
-    SIGIR'21 [[paper](https://fffffarmer.github.io/publications/SIGIR'21.pdf)] [[code](https://github.com/fffffarmer/RelativeConUCB)]
-- **Layered Neighborhood Expansion for Incremental Multiple Graph Matching**  
-    Zixuan Chen, **Zhihui Xie**, Junchi Yan, Yinqiang Zheng, Xiaokang Yang  
-    ECCV'20 [[paper](https://fffffarmer.github.io/publications/ECCV'20.pdf)] [[code](https://github.com/fffffarmer/LNE_IMGM)]
+## [Publications](/publications)
+
