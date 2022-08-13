@@ -11,6 +11,7 @@ Before that, I received my Bachelor's degree from IEEE Honor Class, Shanghai Jia
 I was a research intern at Tencent AI Lab (Apr 2021 - Sep 2021) and XYZ Robotics (Jul 2020 - Oct 2020).
 
 ## News
+- [Apr. 2022] I was selected as a member of Tencent Rhino-Bird elite training program.
 - [Apr. 2022] One paper accepted by SIGIR 2022.
 - [Jan. 2022] One paper accepted by WWW 2022.
 - [Oct. 2021] One paper accepted by NeurIPS 2021 Offline RL workshop.
