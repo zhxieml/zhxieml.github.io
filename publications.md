@@ -2,7 +2,14 @@
 layout: publications
 ---
 
+### 2023
+- **Future-conditioned Unsupervised Pretraining for Decision Transformer**  
+    **Zhihui Xie**, Zichuan Lin, Deheng Ye, Qiang Fu, Wei Yang, Shuai Li  
+    ICML'23 [[paper](/assets/publications/ICML'23.pdf)][[code](https://github.com/fffffarmer/PDT)]
 ### 2022
+- **Discovering Low-rank Subspaces for Language-agnostic Multilingual Representations**  
+    **Zhihui Xie**, Handong Zhao, Tong Yu, Shuai Li  
+    EMNLP'22 [[paper](/assets/publications/EMNLP'22.pdf)][[code](https://github.com/fffffarmer/LSAR)][[poster](/assets/posters/EMNLP'22.pdf)]
 - **Doubly-Adaptive Reinforcement Learning for Cross-Domain Interactive Recommendation**  
     Junda Wu\*, **Zhihui Xie**\*, Tong Yu, Handong Zhao, Ruiyi Zhang, Shuai Li  
     (previous version in NeurIPS'21 Offline RL Workshop: [link](https://offline-rl-neurips.github.io/2021/pdf/50.pdf))  
