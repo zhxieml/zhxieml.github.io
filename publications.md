@@ -6,6 +6,7 @@ layout: publications
 - **Future-conditioned Unsupervised Pretraining for Decision Transformer**  
     **Zhihui Xie**, Zichuan Lin, Deheng Ye, Qiang Fu, Wei Yang, Shuai Li  
     ICML'23 [[paper](/assets/publications/ICML'23.pdf)][[code](https://github.com/fffffarmer/PDT)]
+
 ### 2022
 - **Discovering Low-rank Subspaces for Language-agnostic Multilingual Representations**  
     **Zhihui Xie**, Handong Zhao, Tong Yu, Shuai Li  
