@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Zhihui Xie (谢知晖)
+title: Zhihui Xie 谢知晖
 date: 2023-05-29 23:39:00
 ---
 
