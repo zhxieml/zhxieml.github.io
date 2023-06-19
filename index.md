@@ -1,7 +1,7 @@
 ---
 layout: about
 title: Zhihui Xie 谢知晖
-date: 2023-05-29 23:39:00
+date: 2023-06-19 14:33:00
 ---
 
 Hi!
@@ -11,6 +11,7 @@ Before that, I received my Bachelor's degree from IEEE Honor Class, Shanghai Jia
 I was a research intern at Tencent AI Lab (Apr 2021 - Sep 2021) and XYZ Robotics (Jul 2020 - Oct 2020).
 
 ## News
+- [Jun. 2023] I was shortlisted for the outstanding scholarship of 2022 Tencent Rhino-Bird Research Elite Program.
 - [Apr. 2023] One paper accepted at ICML 2023! Heading to Hawaii🌴 in July.
 - [Oct. 2022] One paper accepted at EMNLP 2022.
 - [Apr. 2022] I was selected as a member of Tencent Rhino-Bird Research Elite Program.
