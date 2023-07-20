@@ -2,6 +2,7 @@
 layout: post
 title: 以小博大，紧张刺激
 cover: gamble.jpg
+subtitle: X1 Carbon
 date:   2020-02-27 17:00:00
 category: blog
 tag: daily

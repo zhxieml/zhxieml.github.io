@@ -1,7 +1,8 @@
 ---
 layout: about
 title: Zhihui Xie 谢知晖
-date: 2023-06-19 14:33:00
+subtitle: Homepage
+date: 2023-07-20 10:24:00
 ---
 
 Hi!
@@ -12,7 +13,7 @@ I was a research intern at Tencent AI Lab (Apr 2021 - Sep 2021) and XYZ Robotics
 
 ## News
 - [Jun. 2023] I was shortlisted for the outstanding scholarship of 2022 Tencent Rhino-Bird Research Elite Program.
-- [Apr. 2023] One paper accepted at ICML 2023! Heading to Hawaii🌴 in July.
+- [Apr. 2023] One paper accepted at ICML 2023.
 - [Oct. 2022] One paper accepted at EMNLP 2022.
 - [Apr. 2022] I was selected as a member of Tencent Rhino-Bird Research Elite Program.
 - [Apr. 2022] One paper accepted at SIGIR 2022.
