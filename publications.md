@@ -6,7 +6,7 @@ subtitle: Publications
 ### 2023
 - **Future-conditioned Unsupervised Pretraining for Decision Transformer**  
     **Zhihui Xie**, Zichuan Lin, Deheng Ye, Qiang Fu, Wei Yang, Shuai Li  
-    ICML'23 [[paper](/assets/publications/ICML'23.pdf)][[code](https://github.com/fffffarmer/PDT)]
+    ICML'23 [[paper](/assets/publications/ICML'23.pdf)][[code](https://github.com/fffffarmer/PDT)][[poster](https://github.com/fffffarmer/PDT/blob/main/assets/poster.pdf)]
 
 ### 2022
 - **Discovering Low-rank Subspaces for Language-agnostic Multilingual Representations**  
@@ -14,7 +14,7 @@ subtitle: Publications
     EMNLP'22 [[paper](/assets/publications/EMNLP'22.pdf)][[code](https://github.com/fffffarmer/LSAR)][[poster](/assets/posters/EMNLP'22.pdf)]
 - **Doubly-Adaptive Reinforcement Learning for Cross-Domain Interactive Recommendation**  
     Junda Wu\*, **Zhihui Xie**\*, Tong Yu, Handong Zhao, Ruiyi Zhang, Shuai Li  
-    (previous version in NeurIPS'21 Offline RL Workshop: [link](https://offline-rl-neurips.github.io/2021/pdf/50.pdf))  
+    ([previous version](https://offline-rl-neurips.github.io/2021/pdf/50.pdf) in NeurIPS'21 Offline RL Workshop)  
     SIGIR'22 [[paper](/assets/publications/SIGIR'22.pdf)]
 - **Knowledge-aware Conversational Preference Elicitation with Bandit Feedback**  
     Canzhe Zhao, Tong Yu, **Zhihui Xie**, Shuai Li  
