@@ -24,6 +24,11 @@ body {
   overflow: hidden;
 }
 
+img {
+  width: 70%;
+  max-height: 100%;
+}
+
 a {
   color: #8085C1;
   text-decoration: none;
@@ -147,7 +152,7 @@ a:hover {
 
 .post {
   line-height: 24px;
-  max-width: 725px;
+  max-width: 70%;
   clear: both;
 }
 

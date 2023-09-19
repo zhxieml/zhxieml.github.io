@@ -2,6 +2,8 @@ name: Zhihui Xie | Homepage
 markdown: kramdown
 highlighter: rouge
 google_analytics: UA-158801170-1
+timezone: Asia/Hong_Kong
+future: true
 # plugins:
 #   - jekyll-last-modified-at
 # last-modified-at:
