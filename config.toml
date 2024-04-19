@@ -1,0 +1,34 @@
+baseURL = "https://zhxie.site/"
+
+# set your your own ga token here.
+googleAnalytics = "G-75TZ6812XS"
+
+languageCode = "en-us"
+
+# for using avicenna you need to set the themes to 'avicenna'
+enableEmoji = true
+theme = "avicenna"
+
+# This is your page title, it appears in your tab
+title = "Zhihui Xie's Homepage"
+
+# number of posts to show on the blog page
+paginate = 10
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['$', '$']]
+[markup.tableOfContents]
+endLevel = 3
+ordered = false
+startLevel = 1
+
+[params]
+# it is used for the copy-right section of your page
+name = "Zhihui Xie"
+math = true

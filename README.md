@@ -1,2 +1,3 @@
-# Personal Page
-Many thanks to the original project [flex](https://github.com/the-development/flex) and [jekyll-last-modified-at](https://github.com/gjtorikian/jekyll-last-modified-at) which provides a simple but userful plugin.
+# Zhihui Xie's Homepage
+
+This is the v2 version of my personal page. Many thanks to [Avicenna Theme](https://github.com/hadisinaee/avicenna)!
