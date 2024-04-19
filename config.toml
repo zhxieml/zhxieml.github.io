@@ -7,7 +7,7 @@ languageCode = "en-us"
 
 # for using avicenna you need to set the themes to 'avicenna'
 enableEmoji = true
-theme = "avicenna"
+theme = "avicenna-theme"
 
 # This is your page title, it appears in your tab
 title = "Zhihui Xie's Homepage"

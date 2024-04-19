@@ -1,0 +1,3 @@
+[submodule "themes/avicenna-theme"]
+	path = themes/avicenna-theme
+	url = https://github.com/fffffarmer/avicenna-theme.git
