@@ -14,7 +14,7 @@ publication: "ICML"
 links:
     pdf: https://arxiv.org/pdf/2305.16683.pdf
     code: https://github.com/fffffarmer/PDT
-    poster: https://github.com/fffffarmer/PDT/blob/main/assets/poster.pdf
+    poster: posters/icml23.pdf
 
 ---
 
