@@ -14,7 +14,7 @@ Generated reasoning is faithful to the model’s true reasoning, if it can [“a
 
 中文版本：[知乎](https://zhuanlan.zhihu.com/p/657113706)
 
-**Table of Contents**
+{{< table_of_contents >}}
 
 # Measuring Faithfulness
 
