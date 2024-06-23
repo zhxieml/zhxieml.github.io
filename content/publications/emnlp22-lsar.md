@@ -11,6 +11,6 @@ publication: "EMNLP"
 
 links:
     pdf: https://arxiv.org/pdf/2401.05792v1.pdf
-    code: https://github.com/fffffarmer/LSAR
+    code: https://github.com/zhxieml/LSAR
     poster: posters/emnlp22.pdf
 ---

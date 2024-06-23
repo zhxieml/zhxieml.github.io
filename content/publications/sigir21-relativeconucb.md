@@ -11,6 +11,6 @@ publication: "SIGIR"
 
 links:
     pdf: https://arxiv.org/pdf/2208.09837.pdf
-    code: https://github.com/fffffarmer/RelativeConUCB
+    code: https://github.com/zhxieml/RelativeConUCB
 
 ---

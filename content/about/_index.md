@@ -12,7 +12,7 @@ blog: true
 
 socials:
     twitter: "_zhihuixie"
-    github: "fffffarmer"
+    github: "zhxieml"
     # facebook: "YOUR_NAME"
     # linkedin: "YOUR_NAME"
     # twitch: "YOUR_NAME"
