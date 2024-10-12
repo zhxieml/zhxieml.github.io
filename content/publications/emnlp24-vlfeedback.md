@@ -1,8 +1,8 @@
 ---
-title: "Silkie: Preference Distillation for Large Visual Language Models"
+title: "VLFeedback: A Large-Scale AI Feedback Dataset for Large Vision-Language Models Alignment"
 authors:
-- Lei Li
-- Zhihui Xie
+- Lei Li*
+- Zhihui Xie*
 - Mukai Li
 - Shunian Chen
 - Peiyi Wang
@@ -10,9 +10,9 @@ authors:
 - Yazheng Yang
 - Benyou Wang
 - Lingpeng Kong
-date: "2023-12-17"
+date: "2024-11-12"
 
-publication: "In Submission"
+publication: "EMNLP"
 
 links:
     pdf: https://arxiv.org/pdf/2312.10665.pdf

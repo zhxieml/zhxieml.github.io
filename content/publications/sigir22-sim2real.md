@@ -1,8 +1,8 @@
 ---
 title: "Doubly-Adaptive Reinforcement Learning for Cross-Domain Interactive Recommendation"
 authors:
-- Junda Wu
-- Zhihui Xie
+- Junda Wu*
+- Zhihui Xie*
 - Tong Yu
 - Handong Zhao
 - Ruiyi Zhang
