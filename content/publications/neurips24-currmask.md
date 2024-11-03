@@ -10,4 +10,6 @@ date: "2024-12-09"
 
 publication: "NeurIPS"
 
+links:
+    pdf: https://arxiv.org/pdf/2410.17744
 ---

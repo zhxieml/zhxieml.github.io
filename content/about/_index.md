@@ -4,7 +4,7 @@ date: 2024-04-09T17:51:47+08:00
 draft: false
 headless: true
 
-full_name: "Zhihui Xie"
+full_name: "Zhihui Xie (谢知晖)"
 profile_picture: "profile.png"
 cv: false
 # set to false if you don't want to show your blog
