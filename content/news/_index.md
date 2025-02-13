@@ -11,10 +11,18 @@ default_news_icon: "file-text"
 num_news: 5
 
 news_items:
-- text: "Two papers were accepted by NeurIPS 2024. Stay tuned!"
+- text: "Check out critic-rl, a RL-based framework for training LLM critics"
+  extra_text: "February 2025."
+  date: 2025-02-12
+  link: https://critic-rl.github.io/
+- text: "We release VL-RewardBench, a challenging benchmark for VLM reward models"
+  extra_text: "November 2024."
+  date: 2024-11-26
+  link: https://vl-rewardbench.github.io/
+- text: "Two papers were accepted by NeurIPS 2024 🎉"
   extra_text: "September 2024."
   date: 2024-09-20
-- text: "VLFeedback was accepted by EMNLP 2024!"
+- text: "VLFeedback was accepted by EMNLP 2024"
   extra_text: "September 2024."
   link: https://vlf-silkie.github.io/
   date: 2024-09-20

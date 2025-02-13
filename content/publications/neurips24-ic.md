@@ -5,11 +5,11 @@ authors:
 - Jizhou Guo
 - Tong Yu
 - Shuai Li
-date: "2024-12-09"
+date: "2024-05-29"
 
 publication: "NeurIPS"
 
 links:
     pdf: https://arxiv.org/pdf/2405.18711
-
+    code: https://github.com/zhxieml/internal-consistency
 ---
