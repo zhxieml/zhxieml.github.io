@@ -57,7 +57,7 @@ academia:
 
 I am a 1st year Ph.D. student at HKU, advised by [Lingpeng Kong][3] and [Qi Liu][4]. My research focuses on AI alignment, with a particular emphasis on developing scalable methods to incentivize models to provide feedback (i.e., rewards) and learn from this feedback effectively.
 
-Previously, I obtained my Master's degree at Shanghai Jiao Tong University, under the supervision of [Shuai Li][1]. I received my Bachelor’s degree from IEEE Honor Class, Shanghai Jiao Tong University, where I was fortunate to work with [Junchi Yan][2]. I was a research intern at Reka AI (Oct 2023 - Jan 2024), Tencent AI Lab (Apr 2021 - Sep 2021) and XYZ Robotics (Jul 2020 - Oct 2020).
+Previously, I obtained my Master's degree at Shanghai Jiao Tong University, under the supervision of [Shuai Li][1]. I received my Bachelor’s degree from IEEE Honor Class, Shanghai Jiao Tong University, where I was fortunate to work with [Junchi Yan][2].
 
 [1]: http://shuaili8.github.io/
 [2]: https://thinklab.sjtu.edu.cn/
