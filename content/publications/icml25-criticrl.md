@@ -7,9 +7,9 @@ authors:
 - Weichao Mao
 - Jingjing Xu
 - Lingpeng Kong
-date: "2025-02-12"
+date: "2025-05-01"
 
-publication: "Arxiv"
+publication: "ICML"
 
 links:
     pdf: https://arxiv.org/pdf/2502.03492

@@ -11,6 +11,17 @@ default_news_icon: "file-text"
 num_news: 5
 
 news_items:
+- text: "We release POLARIS, a post-training recipe boosting 4B models to surpass Claude Opus 4 on AIME25"
+  extra_text: "June 2025."
+  date: 2025-06-20
+  link: https://honorable-payment-890.notion.site/POLARIS-A-POst-training-recipe-for-scaling-reinforcement-Learning-on-Advanced-ReasonIng-modelS-1dfa954ff7c38094923ec7772bf447a1
+- text: "I joined Meta Superintelligence Labs as a Research Intern this summer!"
+  extra_text: "June 2025."
+  date: 2025-06-16
+- text: "We release Dream 7B, the most powerful open diffusion LLM to date"
+  extra_text: "April 2025."
+  date: 2025-04-02
+  link: https://hkunlp.github.io/blog/2025/dream/
 - text: "Check out critic-rl, a RL-based framework for training LLM critics"
   extra_text: "February 2025."
   date: 2025-02-12
