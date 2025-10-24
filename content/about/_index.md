@@ -55,7 +55,7 @@ academia:
         # other_info: 'graduated with first class honor, supervised by Prof.  Cool!'
 ---
 
-I am a 1st year Ph.D. student at HKU, advised by [Lingpeng Kong][3] and [Qi Liu][4]. My research focuses on AI alignment, with a particular emphasis on developing scalable methods to incentivize models to provide feedback (i.e., rewards) and learn from this feedback effectively.
+I am a 2nd year Ph.D. student at HKU, advised by [Lingpeng Kong][3] and [Qi Liu][4]. My research focuses on AI alignment, with a particular emphasis on developing scalable methods to incentivize models to provide feedback (i.e., rewards) and learn from this feedback effectively.
 
 Previously, I obtained my Master's degree at Shanghai Jiao Tong University, under the supervision of [Shuai Li][1]. I received my Bachelor’s degree from IEEE Honor Class, Shanghai Jiao Tong University, where I was fortunate to work with [Junchi Yan][2].
 

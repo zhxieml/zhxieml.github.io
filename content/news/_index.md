@@ -11,6 +11,10 @@ default_news_icon: "file-text"
 num_news: 5
 
 news_items:
+- text: "We release Dream-Coder 7B, an open diffusion LLM matching performance of leading open AR models"
+  extra_text: "July 2025."
+  date: 2025-07-15
+  link: https://hkunlp.github.io/blog/2025/dream-coder/
 - text: "We release POLARIS, a post-training recipe boosting 4B models to surpass Claude Opus 4 on AIME25"
   extra_text: "June 2025."
   date: 2025-06-20
