@@ -1,14 +1,14 @@
 ---
 title: "POLARIS: A POst-training recipe for scaling reinforcement Learning on Advanced ReasonIng modelS"
 authors:
-- Chenxin An*
+- Chenxin An
 - Zhihui Xie
 - Xiaonan Li
 - Lei Li
 - Jun Zhang
 - Shansan Gong
 - Ming Zhong
-- Jingjing Xu*
+- Jingjing Xu
 - Xipeng Qiu
 - Mingxuan Wang
 - Lingpeng Kong
