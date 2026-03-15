@@ -18,11 +18,6 @@ socials:
     # twitch: "YOUR_NAME"
     google_scholar: "citations?user=Jml8NvkAAAAJ"
 
-interests:
-    - AI Alignment
-    - Multi-modal Models
-    - Reinforcement Learning
-
 affiliations:
     - affiliation:
         title: "Ph.D. Student"
@@ -33,29 +28,15 @@ affiliations:
     #     name: "The Coolest Startup In the World"
     #     email: "email@mycoolstartup.ai"
 
-academia:
-    - course:
-        degree: "Ph.D."
-        institution:  "The University of Hong Kong"
-        major: "@HKUNLP"
-        start_date: "2024"
-    - course:
-        degree: "M.Sc."
-        institution: 'Shanghai Jiao Tong University'
-        major: 'Computer Science'
-        start_date: '2021'
-        end_date: '2024'
-        # other_info: 'graduated without first class honor, supervised by Prof. Very Cool!'
-    - course:
-        degree: "B.Sc."
-        institution: 'Shanghai Jiao Tong University'
-        major: 'Computer Science (IEEE Honor Class)'
-        start_date: '2017'
-        end_date: '2021'
-        # other_info: 'graduated with first class honor, supervised by Prof.  Cool!'
 ---
 
-I am a 2nd year Ph.D. student at HKU, advised by [Lingpeng Kong][3] and [Qi Liu][4]. My research focuses on AI alignment, with a particular emphasis on developing scalable methods to incentivize models to provide feedback (i.e., rewards) and learn from this feedback effectively.
+I am a 2nd year Ph.D. student at HKU, advised by [Lingpeng Kong][3] and [Qi Liu][4].
+
+I am particularly interested in building scalable methods that enable models to produce useful feedback, learn effectively from that feedback, and improve their reasoning and decision-making over time.
+
+- Developing post-training methods for critique, reflection, and self-improving reasoning — [CTRL](https://arxiv.org/abs/2502.03492), [Polaris](https://hkunlp.github.io/blog/2025/Polaris/), [OPSD](https://arxiv.org/abs/2601.18734), and [ReMiss](https://arxiv.org/abs/2406.14393)
+- Improving alignment and evaluation for vision-language models — [VLFeedback](https://arxiv.org/abs/2312.10665), [VLRewardBench](https://arxiv.org/abs/2411.17451), and [Reka Flash](https://arxiv.org/abs/2404.12387)
+- Exploring training recipes for diffusion language models — [Dream](https://arxiv.org/abs/2508.15487) and [Dream-Coder](https://hkunlp.github.io/blog/2025/dream-coder/)
 
 Previously, I obtained my Master's degree at Shanghai Jiao Tong University, under the supervision of [Shuai Li][1]. I received my Bachelor’s degree from IEEE Honor Class, Shanghai Jiao Tong University, where I was fortunate to work with [Junchi Yan][2].
 

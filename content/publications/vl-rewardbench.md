@@ -16,7 +16,7 @@ authors:
 - Qi Liu
 date: "2024-11-26"
 
-publication: "Arxiv"
+publication: "CVPR"
 
 links:
     pdf: https://arxiv.org/pdf/2411.17451

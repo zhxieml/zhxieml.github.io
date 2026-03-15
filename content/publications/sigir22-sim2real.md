@@ -10,6 +10,7 @@ authors:
 date: "2022-07-01"
 
 publication: "SIGIR"
+selected: false
 
 links:
     pdf: https://www.academia.edu/download/97183555/3477495.pdf
