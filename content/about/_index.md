@@ -40,6 +40,8 @@ I am particularly interested in building scalable methods that enable models to 
 
 Previously, I obtained my Master's degree at Shanghai Jiao Tong University, under the supervision of [Shuai Li][1]. I received my Bachelor’s degree from IEEE Honor Class, Shanghai Jiao Tong University, where I was fortunate to work with [Junchi Yan][2].
 
+I always enjoy talking with people from different backgrounds. If you are interested in my work or would simply like to connect, feel free to reach out via [WeChat](wechat-qr.jpg).
+
 [1]: http://shuaili8.github.io/
 [2]: https://thinklab.sjtu.edu.cn/
 [3]: https://ikekonglp.github.io/
