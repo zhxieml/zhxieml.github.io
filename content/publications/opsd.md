@@ -10,7 +10,7 @@ authors:
 - Aditya Grover
 date: "2026-01-26"
 
-publication: "arXiv"
+publication: "ICML"
 
 links:
     project: https://siyan-zhao.github.io/blog/2026/opsd/

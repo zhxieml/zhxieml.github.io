@@ -19,7 +19,7 @@ news_items:
   extra_text: "June 2025."
   date: 2025-06-20
   link: https://honorable-payment-890.notion.site/POLARIS-A-POst-training-recipe-for-scaling-reinforcement-Learning-on-Advanced-ReasonIng-modelS-1dfa954ff7c38094923ec7772bf447a1
-- text: "I joined Meta Superintelligence Labs as a Research Intern this summer!"
+- text: "I joined Meta Superintelligence Labs as a Research Intern in Summer 2025"
   extra_text: "June 2025."
   date: 2025-06-16
 - text: "We release Dream 7B, the most powerful open diffusion LLM to date"

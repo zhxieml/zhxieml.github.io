@@ -1,0 +1,116 @@
+{{ $content_type := .Params.content_type }}
+
+{{ $aboutPage := .Site.GetPage $content_type }}
+{{ $profilePicture := $aboutPage.Params.profile_picture | default "profile.png" }}
+{{ $profileAlt := "Profile photo" }}
+{{ if $aboutPage.Params.full_name }}
+{{ $profileAlt = printf "Profile photo of %s" $aboutPage.Params.full_name }}
+{{ end }}
+
+<div class="row w-100 justify-content-center">
+    <img class="rounded-circle" src="{{ printf "images/%s" $profilePicture | relURL }}" alt="{{ $profileAlt }}" id="profile_picture" />
+</div>
+
+
+{{ if $aboutPage.Params.full_name }}
+<div class=" row w-100 justify-content-center main_color" id="full_name">
+    {{ $aboutPage.Params.full_name }}
+</div>
+{{end}}
+
+{{ if $aboutPage.Params.affiliations }}
+<div class="affiliations row w-100 justify-content-center">
+    <div class="row w-100 justify-content-center">
+        {{ range $key, $value := $aboutPage.Params.affiliations }}
+        <div class="row w-100 justify-content-center" id="title-name">
+            <span class="main_color" id="title">
+                {{$value.affiliation.title}},
+            </span>
+            <span id="name" class="text-muted">
+                {{$value.affiliation.name}}
+            </span>
+        </div>
+        <div class="row w-100 justify-content-center text-muted" id="email">
+            {{$value.affiliation.email}}
+        </div>
+
+
+        {{ end }}
+    </div>
+</div>
+{{end}}
+
+{{ if $aboutPage.Params.socials }}
+<div class="socials row w-100  justify-content-center">
+    <div class="row w-100 justify-content-center">
+        {{ $google_scholar := index $aboutPage.Params.socials "google_scholar"}}
+        {{ $facebook := index $aboutPage.Params.socials "facebook"}}
+        {{ $twitter := index $aboutPage.Params.socials "twitter"}}
+        {{ $twitch := index $aboutPage.Params.socials "twitch"}}
+        {{ $github := index $aboutPage.Params.socials "github"}}
+        {{ $linkedin := index $aboutPage.Params.socials "linkedin"}}
+        {{ $cv := $aboutPage.Params.cv }}
+        {{ $blog := $aboutPage.Params.blog}}
+
+
+        {{if $google_scholar}}
+        <a class="main_color" rel="me noopener" href='https://scholar.google.com/{{$google_scholar}}' target="_blank" aria-label="Google Scholar" title="Google Scholar">
+            <i class="ai ai-2x ai-google-scholar academic_icons_customize" aria-hidden="true"></i>
+        </a>
+        {{end}}
+
+        {{ if $github }}
+        <a class="main_color" rel="me noopener" href='https://github.com/{{$github}}' target="_blank" aria-label="GitHub" title="GitHub">
+            <i data-feather="github" aria-hidden="true"></i>
+        </a>
+        {{end}}
+
+        {{ if $twitter }}
+        <a class="main_color" rel="me noopener" href='https://twitter.com/{{$twitter}}' target="_blank" aria-label="Twitter" title="Twitter">
+            <i data-feather="twitter" aria-hidden="true"></i>
+        </a>
+        {{end}}
+
+        {{ if $facebook }}
+        <a class="main_color" rel="me noopener" href='https://facebook.com/{{$facebook}}' target="_blank" aria-label="Facebook" title="Facebook">
+            <i data-feather="facebook" aria-hidden="true"></i>
+        </a>
+        {{end}}
+
+        {{ if $linkedin }}
+        <a class="main_color" rel="me noopener" href='https://linkedin.com/in/{{$linkedin}}' target="_blank" aria-label="LinkedIn" title="LinkedIn">
+            <i data-feather="linkedin" aria-hidden="true"></i>
+        </a>
+        {{end}}
+
+        {{ if $twitch }}
+        <a class="main_color" rel="me noopener" href='https://twitch.com/{{$twitch}}' target="_blank" aria-label="Twitch" title="Twitch">
+            <i data-feather="twitch" aria-hidden="true"></i>
+        </a>
+        {{end}}
+
+        {{if $cv}}
+        <a class="main_color" href='{{$cv}}' target="_blank" rel="noopener" aria-label="CV" title="CV">
+            <i class="ai ai-2x ai-cv academic_icons_customize" aria-hidden="true"></i>
+        </a>
+        {{end}}
+
+        {{ if $blog }}
+        <a id="blog_logo" class="main_color" href='/blog' target="_blank" rel="noopener" aria-label="Blog" title="Blog">
+            <i class="ai ai-2x ai-blog academic_icons_customize" aria-hidden="true">Blog</i>
+
+        </a>
+        {{ end }}
+
+
+    </div>
+</div>
+{{end}}
+
+{{if $aboutPage.Content }}
+<div class="introduction row w-100">
+    <div class="col w-100">
+        {{$aboutPage.Content}}
+    </div>
+</div>
+{{end}}

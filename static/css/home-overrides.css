@@ -1,0 +1,44 @@
+html {
+    -webkit-text-size-adjust: 100%;
+}
+
+:root {
+    --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+body {
+    font-family: var(--font-sans);
+}
+
+.secondary_font,
+.section-subtitle,
+.about #email,
+.publication .section-1 .publication-date,
+.publication .section-1 .publication-name,
+.publication .section-2,
+.publication .section-3,
+.projects .project a,
+.tags_navigation .tag,
+.blog_nav_bar .item,
+.reading_time {
+    font-family: var(--font-mono);
+}
+
+#profile_picture {
+    width: clamp(120px, 18vw, 220px);
+}
+
+.about .introduction {
+    text-align: justify;
+}
+
+@media (max-width: 575.98px) {
+    #profile_picture {
+        margin-top: 2%;
+    }
+
+    .about .introduction {
+        text-align: left;
+    }
+}

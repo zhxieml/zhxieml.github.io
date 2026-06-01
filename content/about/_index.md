@@ -6,7 +6,7 @@ headless: true
 
 full_name: "Zhihui Xie (谢知晖)"
 profile_picture: "profile.png"
-cv: false
+cv: "https://www.overleaf.com/read/xcxqffpqyyxq#a7d552"
 # set to false if you don't want to show your blog
 blog: true
 
