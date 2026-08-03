@@ -30,7 +30,7 @@ affiliations:
 
 ---
 
-I am a 2nd year Ph.D. student at HKU, advised by [Lingpeng Kong][3] and [Qi Liu][4].
+I am a 3rd year Ph.D. student at HKU, advised by [Lingpeng Kong][3] and [Qi Liu][4].
 
 I am particularly interested in building scalable methods that enable models to produce useful feedback, learn effectively from that feedback, and improve their reasoning and decision-making over time.
 
