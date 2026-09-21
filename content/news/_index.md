@@ -11,6 +11,10 @@ default_news_icon: "file-text"
 num_news: 5
 
 news_items:
+- text: "We release RecreationWorld, a scalable framework for studying hybrid computer-use agents"
+  extra_text: "September 2026."
+  date: 2026-09-21
+  link: https://recreation-bench.cc/
 - text: "We release Dream-Coder 7B, an open diffusion LLM matching performance of leading open AR models"
   extra_text: "July 2025."
   date: 2025-07-15
