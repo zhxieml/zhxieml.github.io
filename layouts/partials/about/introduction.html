@@ -96,9 +96,8 @@
         {{end}}
 
         {{ if $blog }}
-        <a id="blog_logo" class="main_color" href='/blog' target="_blank" rel="noopener" aria-label="Blog" title="Blog">
-            <i class="ai ai-2x ai-blog academic_icons_customize" aria-hidden="true">Blog</i>
-
+        <a class="main_color" href='{{ "/blog/" | relURL }}' target="_blank" rel="noopener" aria-label="Blog" title="Blog">
+            <i data-feather="book-open" aria-hidden="true"></i>
         </a>
         {{ end }}
 
