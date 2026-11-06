@@ -5,6 +5,8 @@ date: "2024-02-05"
 
 tags: ["Weak-to-strong Generalization"]
 
+layout: research
+
 params:
   math: true
 
@@ -85,7 +87,7 @@ For independently scaling pretraining and finetuning, four models are compared:
 | small finetuning | lower bound | EFT up-scaled |
 | large finetuning | EFT down-scaled | upper bound |
 
-![Normalized improvements in factuality and helpfulness from emulated fine-tuning. These normalized improvements can be seen as **performance gap recovered (PGR)** according to the [weak-to-strong paper](https://arxiv.org/abs/2312.09390): PGR = (EFT scaled - lower bound) / (upper bound - lower bound).](Untitled_1.png)
+{{< research-interactive src="Untitled_1.png" data="improvements" alt="Normalized improvements in factuality and helpfulness from emulated fine-tuning. These normalized improvements can be seen as **performance gap recovered (PGR)** according to the [weak-to-strong paper](https://arxiv.org/abs/2312.09390): PGR = (EFT scaled - lower bound) / (upper bound - lower bound)." >}}
 
 Normalized improvements in factuality and helpfulness from emulated fine-tuning. These normalized improvements can be seen as **performance gap recovered (PGR)** according to the [weak-to-strong paper](https://arxiv.org/abs/2312.09390): PGR = (EFT scaled - lower bound) / (upper bound - lower bound).
 
@@ -99,7 +101,7 @@ $$
 r_\lambda^M(x, y)=\lambda r_{\text {help }}^M(x, y)+(1-\lambda) \pi_{\text {safe }}^M
 $$
 
-![GPT-4-evaluated helpfulness and harmfulness on Anthropic-HH prompts.](Untitled_2.png)
+{{< research-interactive src="Untitled_2.png" data="frontier" alt="GPT-4-evaluated helpfulness and harmfulness on Anthropic-HH prompts." >}}
 
 GPT-4-evaluated helpfulness and harmfulness on Anthropic-HH prompts.
 
@@ -119,7 +121,7 @@ alone.
 
 We observe 2.5x speed-ups for EFT-upscaling:
 
-![Untitled](Untitled_4.png)
+{{< research-interactive src="Untitled_4.png" data="speed" alt="Untitled" >}}
 
 ## Observation 4: up-scaling can be further amplified
 
@@ -131,7 +133,7 @@ $$
 
 This up-scaling delta biases generations that are preferred by the large model. Further amplifying this delta with a coefficient $\beta > 1$ improves code generation performance and increases factuality.
 
-![Left: up-scaled Llama-2 on HumanEval; right: up-scaled Llama-2 on ELI5. ](Untitled_5.png)
+{{< research-interactive src="Untitled_5.png" data="amplification" alt="Left: up-scaled Llama-2 on HumanEval; right: up-scaled Llama-2 on ELI5. " >}}
 
 Left: up-scaled Llama-2 on HumanEval; right: up-scaled Llama-2 on ELI5. 
 
@@ -139,7 +141,7 @@ Left: up-scaled Llama-2 on HumanEval; right: up-scaled Llama-2 on ELI5.
 
 Sampling from up-scaled logits can be noisy (i.e., w/ high variance). To mitigate the potential issues, top-$p$ sampling can be applied on top of EFT up-scaling.
 
-![Top-$p$ mildly improves EFT up-scaling.](Untitled_6.png)
+{{< research-interactive src="Untitled_6.png" data="truncation" alt="Top-$p$ mildly improves EFT up-scaling." >}}
 
 Top-$p$ mildly improves EFT up-scaling.
 
@@ -156,7 +158,7 @@ While two papers present almost the same methodology, there are some complementa
 
 # Doing it the reverse direction (from [Zhao et al., 2024](https://arxiv.org/abs/2401.17256))
 
-![Untitled](Untitled_9.png)
+{{< research-interactive src="Untitled_9.png" data="reverse" alt="Untitled" >}}
 
 # Some random thoughts about weak-to-strong generalization
 

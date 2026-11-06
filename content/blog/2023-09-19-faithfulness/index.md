@@ -5,6 +5,9 @@ date: "2023-09-19"
 
 tags: ["CoT", "Faithfulness"]
 
+layout: research
+plain_images: ["Untitled_1.png", "Untitled_5.png", "Untitled_11.png"]
+
 params:
   math: true
 
@@ -30,7 +33,7 @@ The authors have several hypotheses of why (**zero-shot**) CoT fails on faithful
   - Hypothesis: The generated reasoning steps are simply not understandable to human readers (a form of steganography), but the model can collect useful information from it
   - How to measure: replacing CoT with paraphrased CoT (**Paraphrasing**)
 
-![The proposed tests for measuring CoT faithfulness. **Early Answering**: Truncate the original CoT before answering. **Adding Mistakes**: Have a language model add a mistake somewhere in the original CoT and then regenerate the rest of the CoT. **Paraphrasing**: Reword the beginning of the original CoT and then regenerate the rest of the CoT. **Filler Tokens**: Replace the CoT with ellipses.](Untitled.png)
+{{< research-interactive src="Untitled.png" data="tests" alt="The proposed tests for measuring CoT faithfulness. **Early Answering**: Truncate the original CoT before answering. **Adding Mistakes**: Have a language model add a mistake somewhere in the original CoT and then regenerate the rest of the CoT. **Paraphrasing**: Reword the beginning of the original CoT and then regenerate the rest of the CoT. **Filler Tokens**: Replace the CoT with ellipses." >}}
 
 The proposed tests for measuring CoT faithfulness. **Early Answering**: Truncate the original CoT before answering. **Adding Mistakes**: Have a language model add a mistake somewhere in the original CoT and then regenerate the rest of the CoT. **Paraphrasing**: Reword the beginning of the original CoT and then regenerate the rest of the CoT. **Filler Tokens**: Replace the CoT with ellipses.
 
@@ -57,7 +60,7 @@ An example of the used CoT prompt. Underlined text is produced by the model.
 - The collected reasoning samples have **a mean of 4 steps** (sentences), with **89% of samples having between 3~6**
 - w/ CoT > w/o CoT on 7/8 tasks (**AQuA** shows the greatest improvement, while **HellaSwag** is the only exception)
 
-![Untitled](Untitled_2.png)
+{{< research-interactive src="Untitled_2.png" data="statistics" alt="Untitled" >}}
 
 ## Early Answering: Does Truncating the Chain of Thought Change the Predicted Answer?
 
@@ -72,14 +75,14 @@ We observe **wide variation** between tasks:
 - **AQuA** is highly affected by early answering (and therefore the amount of post-hoc reasoning is low)
 - The CoT changes the final answer less than 10% of the time for **ARC (Easy), ARC (Challenge), and OpenbookQA**
 
-![Untitled](Untitled_3.png)
+{{< research-interactive src="Untitled_3.png" data="early" alt="Untitled" >}}
 
 We also see **little correlation** with the performance gain from CoT. This reveals that faithfulness may not be very relevant to task performance.
 
 - **LogiQA**: Negligible accuracy boost <=> high AOC
 - **HellaSwag**: Accuracy drop <=> average AOC
 
-![AOC indicates area over the curve for the early answering and adding mistakes experiments respectively, weighted by the representation of each CoT length. A higher AOC indicates a lower amount of post-hoc reasoning.](Untitled_4.png)
+{{< research-interactive src="Untitled_4.png" data="metrics" alt="AOC indicates area over the curve for the early answering and adding mistakes experiments respectively, weighted by the representation of each CoT length. A higher AOC indicates a lower amount of post-hoc reasoning." >}}
 
 AOC indicates area over the curve for the early answering and adding mistakes experiments respectively, weighted by the representation of each CoT length. A higher AOC indicates a lower amount of post-hoc reasoning.
 
@@ -103,13 +106,13 @@ Besides, we note that **AQuA** and **LogiQA** are with the most faithful reasoni
 - LLMs w/o CoT perform poorly on these tasks (28% and 42% respectively), so **they must rely on the generated reasoning steps**
 - These tasks both involve **logical reasoning**, in which the stated reasoning helps
 
-![Untitled](Untitled_6.png)
+{{< research-interactive src="Untitled_6.png" data="mistakes" alt="Untitled" >}}
 
 ## Filler Tokens: Do Uninformative Chain of Thought Tokens Also Improve Performance?
 
 The procedure of Filler Tokens is simple: replacing the CoT with a number of filler tokens. The observations is also clear: no increase in accuracy when adding “…” tokens to the context. This suggests that **extra test-time compute along is not used to perform helpful but unstated reasoning**.
 
-![Untitled](Untitled_7.png)
+{{< research-interactive src="Untitled_7.png" data="filler" alt="Untitled" >}}
 
 ## Paraphrasing: Does Rewording the Chain of Thought Change the Predicted Answer?
 
@@ -121,13 +124,13 @@ To validate whether encoded reasoning happens, the authors use another pretraine
 - Paraphrasing the subsequences of the reasoning sample until step $i$
 - Continuing to sample the CoT and prompting for a final answer as before
 
-![A paraphrasing example. Differences from the original chain of thought are underlined in the paraphrased sample.](Untitled_8.png)
+{{< research-interactive src="Untitled_8.png" data="paraphrasing-example" alt="A paraphrasing example. Differences from the original chain of thought are underlined in the paraphrased sample." >}}
 
 A paraphrasing example. Differences from the original chain of thought are underlined in the paraphrased sample.
 
 We observe **no significant gaps** between the paraphrased accuracy and the accuracy of the original CoT. It is therefore unlikely for LLMs to encode hidden information responsible for the accuracy gains of CoT.
 
-![Untitled](Untitled_9.png)
+{{< research-interactive src="Untitled_9.png" data="paraphrasing" alt="Untitled" >}}
 
 # Scaling Laws
 
@@ -144,7 +147,7 @@ We can observe two trends from the results (or a **U-shape trend** overall):
 
 To conclude, there seems to be a **dilemma** for reasoning faithfulness: If the model is too small, it cannot even reason; If the model is too large, it ceases to rely on faithful reasoning to solve problems.
 
-![Note: y-axis represents answer inconsistency w/ and w/o CoT. A lower value indicates higher faithfulness. The authors choose this metric since it is highly predictive of overall early answering and adding mistakes results.](Untitled_10.png)
+{{< research-interactive src="Untitled_10.png" data="scaling" alt="Note: y-axis represents answer inconsistency w/ and w/o CoT. A lower value indicates higher faithfulness. The authors choose this metric since it is highly predictive of overall early answering and adding mistakes results." >}}
 
 Note: y-axis represents answer inconsistency w/ and w/o CoT. A lower value indicates higher faithfulness. The authors choose this metric since it is highly predictive of overall early answering and adding mistakes results.
 
@@ -156,7 +159,7 @@ To validate the above conclusion, the authors design another set of synthetic ex
 
 The results again emphasize the **inverse scaling law of faithfulness vs model size**. It may be necessary to choose models that are less capable than the maximally capable model available, **especially for easier tasks**.
 
-![Untitled](Untitled_12.png)
+{{< research-interactive src="Untitled_12.png" data="addition-results" alt="Untitled" >}}
 
 # Conclusion
 

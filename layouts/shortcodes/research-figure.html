@@ -1,0 +1,10 @@
+{{- $src := .Get "src" -}}
+{{- $image := .Page.Resources.GetMatch $src -}}
+{{- if not $image -}}{{- errorf "research-figure: missing page resource %q in %s" $src .Position -}}{{- end -}}
+{{- $number := partial "research/figure-number.html" . -}}
+<figure class="research-figure{{ if .Get "wide" }} figure-wide{{ end }}" id="figure-{{ $number }}">
+  <a class="figure-media" href="{{ $image.RelPermalink }}" data-figure-open aria-label="Enlarge figure {{ $number }}: {{ .Get "alt" }}">
+    <img src="{{ $image.RelPermalink }}" alt="{{ .Get "alt" }}" width="{{ $image.Width }}" height="{{ $image.Height }}" loading="lazy" decoding="async">
+  </a>
+  <figcaption><span class="figure-number">Figure {{ $number }}.</span> {{ .Get "caption" | markdownify }}</figcaption>
+</figure>

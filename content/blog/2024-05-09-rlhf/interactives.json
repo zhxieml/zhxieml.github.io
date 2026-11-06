@@ -1,0 +1,723 @@
+{
+  "methods": {
+    "original": "Untitled_1.png",
+    "panels": [
+      {
+        "label": "Fine-Tuning Approach",
+        "kind": "table",
+        "columns": [
+          "Fine-Tuning Approach",
+          "On-Policy Sampling",
+          "Sample Reuse",
+          "Negative Gradient"
+        ],
+        "rows": [
+          [
+            "PPO",
+            "✓",
+            "✓",
+            "✓"
+          ],
+          [
+            "REINFORCE",
+            "✓",
+            "×",
+            "✓"
+          ],
+          [
+            "DPO, IPO, and variants",
+            "×",
+            "N/A",
+            "✓"
+          ],
+          [
+            "Pref-FT, Binary FeedMe",
+            "×",
+            "N/A",
+            "×"
+          ],
+          [
+            "offline RWR, offline Best-of-N",
+            "×",
+            "N/A",
+            "×"
+          ],
+          [
+            "ReST, RWR, online Best-of-N",
+            "✓",
+            "✓",
+            "×"
+          ]
+        ]
+      }
+    ]
+  },
+  "coverage": {
+    "original": "Untitled_3.png",
+    "panels": [
+      {
+        "label": "[C1] ↓ / [C2] →",
+        "kind": "table",
+        "columns": [
+          "[C1] ↓ / [C2] →",
+          "high D_pref and π_ref overlap",
+          "low D_pref and π_ref overlap"
+        ],
+        "rows": [
+          [
+            "peaks of r* and π_ref overlap",
+            "✓ Mode Length",
+            "×"
+          ],
+          [
+            "peaks of r* and π_ref disjoint",
+            "✓ Min Length",
+            "✓ Skew Length"
+          ]
+        ]
+      }
+    ]
+  },
+  "sampling": {
+    "original": "Untitled_4.png",
+    "panels": [
+      {
+        "label": "On-policy RWR",
+        "kind": "source-panel",
+        "rect": [
+          0,
+          0,
+          2470,
+          1566
+        ],
+        "legendHeading": "Batch Size",
+        "legendItems": [
+          {
+            "name": "B = 64",
+            "color": "#ff6559"
+          },
+          {
+            "name": "B = 128",
+            "color": "#18556e"
+          },
+          {
+            "name": "B = 256",
+            "color": "#1abec7"
+          },
+          {
+            "name": "π_ref",
+            "color": "#ffa528"
+          }
+        ]
+      },
+      {
+        "label": "REINFORCE",
+        "kind": "source-panel",
+        "rect": [
+          2470,
+          0,
+          2559,
+          1566
+        ],
+        "legendHeading": "Batch Size",
+        "legendItems": [
+          {
+            "name": "B = 64",
+            "color": "#ff6559"
+          },
+          {
+            "name": "B = 128",
+            "color": "#18556e"
+          },
+          {
+            "name": "B = 256",
+            "color": "#1abec7"
+          },
+          {
+            "name": "π_ref",
+            "color": "#ffa528"
+          }
+        ]
+      }
+    ]
+  },
+  "bandit-setup": {
+    "original": "Untitled_5.png",
+    "panels": [
+      {
+        "label": "Reference Policy",
+        "kind": "source-panel",
+        "rect": [
+          0,
+          0,
+          545,
+          400
+        ]
+      },
+      {
+        "label": "Reward Functions",
+        "kind": "source-panel",
+        "rect": [
+          545,
+          0,
+          507,
+          400
+        ]
+      }
+    ]
+  },
+  "bandit": {
+    "original": "Untitled_6.png",
+    "panels": [
+      {
+        "label": "R1 · Reward",
+        "kind": "source-panel",
+        "rect": [
+          0,
+          0,
+          545,
+          383
+        ],
+        "legend": [
+          855,
+          389,
+          500,
+          109
+        ],
+        "legendHeading": "Batch Size",
+        "legendItems": [
+          {
+            "name": "B = 10",
+            "color": "#ff6559"
+          },
+          {
+            "name": "B = 20",
+            "color": "#18556e"
+          },
+          {
+            "name": "B = 50",
+            "color": "#1abec7"
+          },
+          {
+            "name": "B = 100",
+            "color": "#ffa528"
+          },
+          {
+            "name": "B = 500",
+            "color": "#62727d"
+          },
+          {
+            "name": "B = 1000",
+            "color": "#c6ccd3"
+          }
+        ]
+      },
+      {
+        "label": "R1 · D_KL",
+        "kind": "source-panel",
+        "rect": [
+          545,
+          0,
+          565,
+          383
+        ],
+        "legend": [
+          855,
+          389,
+          500,
+          109
+        ],
+        "legendHeading": "Batch Size",
+        "legendItems": [
+          {
+            "name": "B = 10",
+            "color": "#ff6559"
+          },
+          {
+            "name": "B = 20",
+            "color": "#18556e"
+          },
+          {
+            "name": "B = 50",
+            "color": "#1abec7"
+          },
+          {
+            "name": "B = 100",
+            "color": "#ffa528"
+          },
+          {
+            "name": "B = 500",
+            "color": "#62727d"
+          },
+          {
+            "name": "B = 1000",
+            "color": "#c6ccd3"
+          }
+        ]
+      },
+      {
+        "label": "R2 · Reward",
+        "kind": "source-panel",
+        "rect": [
+          1110,
+          0,
+          531,
+          383
+        ],
+        "legend": [
+          855,
+          389,
+          500,
+          109
+        ],
+        "legendHeading": "Batch Size",
+        "legendItems": [
+          {
+            "name": "B = 10",
+            "color": "#ff6559"
+          },
+          {
+            "name": "B = 20",
+            "color": "#18556e"
+          },
+          {
+            "name": "B = 50",
+            "color": "#1abec7"
+          },
+          {
+            "name": "B = 100",
+            "color": "#ffa528"
+          },
+          {
+            "name": "B = 500",
+            "color": "#62727d"
+          },
+          {
+            "name": "B = 1000",
+            "color": "#c6ccd3"
+          }
+        ]
+      },
+      {
+        "label": "R2 · D_KL",
+        "kind": "source-panel",
+        "rect": [
+          1641,
+          0,
+          569,
+          383
+        ],
+        "legend": [
+          855,
+          389,
+          500,
+          109
+        ],
+        "legendHeading": "Batch Size",
+        "legendItems": [
+          {
+            "name": "B = 10",
+            "color": "#ff6559"
+          },
+          {
+            "name": "B = 20",
+            "color": "#18556e"
+          },
+          {
+            "name": "B = 50",
+            "color": "#1abec7"
+          },
+          {
+            "name": "B = 100",
+            "color": "#ffa528"
+          },
+          {
+            "name": "B = 500",
+            "color": "#62727d"
+          },
+          {
+            "name": "B = 1000",
+            "color": "#c6ccd3"
+          }
+        ]
+      }
+    ]
+  },
+  "reuse": {
+    "original": "Untitled_7.png",
+    "panels": [
+      {
+        "label": "PPO · Completion Length",
+        "kind": "source-panel",
+        "rect": [
+          0,
+          0,
+          583,
+          510
+        ],
+        "legend": [
+          830,
+          554,
+          650,
+          86
+        ],
+        "legendHeading": "Inner Iteration Steps",
+        "legendItems": [
+          {
+            "name": "T = 1",
+            "color": "#ff6559"
+          },
+          {
+            "name": "T = 2",
+            "color": "#18556e"
+          },
+          {
+            "name": "T = 4",
+            "color": "#1abec7"
+          },
+          {
+            "name": "T = 8",
+            "color": "#ffa528"
+          }
+        ]
+      },
+      {
+        "label": "PPO · Gold Reward",
+        "kind": "source-panel",
+        "rect": [
+          583,
+          0,
+          572,
+          510
+        ],
+        "legend": [
+          830,
+          554,
+          650,
+          86
+        ],
+        "legendHeading": "Inner Iteration Steps",
+        "legendItems": [
+          {
+            "name": "T = 1",
+            "color": "#ff6559"
+          },
+          {
+            "name": "T = 2",
+            "color": "#18556e"
+          },
+          {
+            "name": "T = 4",
+            "color": "#1abec7"
+          },
+          {
+            "name": "T = 8",
+            "color": "#ffa528"
+          }
+        ]
+      },
+      {
+        "label": "Best-of-N · Completion Length",
+        "kind": "source-panel",
+        "rect": [
+          1155,
+          0,
+          565,
+          510
+        ],
+        "legend": [
+          830,
+          554,
+          650,
+          86
+        ],
+        "legendHeading": "Inner Iteration Steps",
+        "legendItems": [
+          {
+            "name": "T = 1",
+            "color": "#ff6559"
+          },
+          {
+            "name": "T = 2",
+            "color": "#18556e"
+          },
+          {
+            "name": "T = 4",
+            "color": "#1abec7"
+          },
+          {
+            "name": "T = 8",
+            "color": "#ffa528"
+          }
+        ]
+      },
+      {
+        "label": "Best-of-N · Gold Reward",
+        "kind": "source-panel",
+        "rect": [
+          1720,
+          0,
+          602,
+          510
+        ],
+        "legend": [
+          830,
+          554,
+          650,
+          86
+        ],
+        "legendHeading": "Inner Iteration Steps",
+        "legendItems": [
+          {
+            "name": "T = 1",
+            "color": "#ff6559"
+          },
+          {
+            "name": "T = 2",
+            "color": "#18556e"
+          },
+          {
+            "name": "T = 4",
+            "color": "#1abec7"
+          },
+          {
+            "name": "T = 8",
+            "color": "#ffa528"
+          }
+        ]
+      }
+    ]
+  },
+  "negative": {
+    "original": "Untitled_8.png",
+    "panels": [
+      {
+        "label": "AlpacaFarm (left)",
+        "kind": "source-panel",
+        "rect": [
+          0,
+          0,
+          2278,
+          1466
+        ]
+      },
+      {
+        "label": "UltraFeedback (right)",
+        "kind": "source-panel",
+        "rect": [
+          2278,
+          0,
+          2141,
+          1466
+        ]
+      }
+    ]
+  },
+  "likelihood": {
+    "original": "Untitled_9.png",
+    "panels": [
+      {
+        "label": "Pref-FT: AlpacaFarm",
+        "kind": "source-panel",
+        "rect": [
+          0,
+          0,
+          495,
+          304
+        ],
+        "legendHeading": "",
+        "legendItems": [
+          {
+            "name": "Preferred",
+            "color": "#ff6559"
+          },
+          {
+            "name": "Less Preferred",
+            "color": "#18556e"
+          }
+        ]
+      },
+      {
+        "label": "DPO: AlpacaFarm",
+        "kind": "source-panel",
+        "rect": [
+          495,
+          0,
+          496,
+          304
+        ],
+        "legendHeading": "",
+        "legendItems": [
+          {
+            "name": "Preferred",
+            "color": "#ff6559"
+          },
+          {
+            "name": "Less Preferred",
+            "color": "#18556e"
+          }
+        ]
+      },
+      {
+        "label": "Pref-FT: UltraFeedback",
+        "kind": "source-panel",
+        "rect": [
+          991,
+          0,
+          459,
+          304
+        ],
+        "legendHeading": "",
+        "legendItems": [
+          {
+            "name": "Preferred",
+            "color": "#ff6559"
+          },
+          {
+            "name": "Less Preferred",
+            "color": "#18556e"
+          }
+        ]
+      },
+      {
+        "label": "DPO: UltraFeedback",
+        "kind": "source-panel",
+        "rect": [
+          1450,
+          0,
+          491,
+          304
+        ],
+        "legendHeading": "",
+        "legendItems": [
+          {
+            "name": "Preferred",
+            "color": "#ff6559"
+          },
+          {
+            "name": "Less Preferred",
+            "color": "#18556e"
+          }
+        ]
+      }
+    ]
+  },
+  "complementary": {
+    "original": "Untitled_10.png",
+    "panels": [
+      {
+        "label": "Min Length",
+        "kind": "source-panel",
+        "rect": [
+          0,
+          0,
+          2085,
+          1550
+        ],
+        "legendHeading": "Algorithm",
+        "legendItems": [
+          {
+            "name": "On-policy DPO",
+            "color": "#ff6559"
+          },
+          {
+            "name": "Offline DPO",
+            "color": "#18556e"
+          },
+          {
+            "name": "PPO",
+            "color": "#1abec7"
+          },
+          {
+            "name": "On-policy RWR",
+            "color": "#ffa528"
+          }
+        ]
+      },
+      {
+        "label": "Mode Length",
+        "kind": "source-panel",
+        "rect": [
+          2085,
+          0,
+          2041,
+          1550
+        ],
+        "legendHeading": "Algorithm",
+        "legendItems": [
+          {
+            "name": "On-policy DPO",
+            "color": "#ff6559"
+          },
+          {
+            "name": "Offline DPO",
+            "color": "#18556e"
+          },
+          {
+            "name": "PPO",
+            "color": "#1abec7"
+          },
+          {
+            "name": "On-policy RWR",
+            "color": "#ffa528"
+          }
+        ]
+      },
+      {
+        "label": "Skew Length",
+        "kind": "source-panel",
+        "rect": [
+          4126,
+          0,
+          2076,
+          1550
+        ],
+        "legendHeading": "Algorithm",
+        "legendItems": [
+          {
+            "name": "On-policy DPO",
+            "color": "#ff6559"
+          },
+          {
+            "name": "Offline DPO",
+            "color": "#18556e"
+          },
+          {
+            "name": "PPO",
+            "color": "#1abec7"
+          },
+          {
+            "name": "On-policy RWR",
+            "color": "#ffa528"
+          }
+        ]
+      }
+    ]
+  },
+  "kl": {
+    "original": "Untitled_11.png",
+    "panels": [
+      {
+        "label": "Toy Estimated and True Distribution",
+        "kind": "source-panel",
+        "rect": [
+          0,
+          0,
+          795,
+          804
+        ]
+      },
+      {
+        "label": "Updated Dist for Forward and Reverse KL",
+        "kind": "source-panel",
+        "rect": [
+          795,
+          0,
+          764,
+          804
+        ]
+      }
+    ]
+  },
+  "source": "https://arxiv.org/abs/2404.14367"
+}

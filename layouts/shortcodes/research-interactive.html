@@ -1,0 +1,22 @@
+{{- $source := .Page.Resources.GetMatch (.Get "src") -}}
+{{- $resource := .Page.Resources.GetMatch "interactives.json" -}}
+{{- if or (not $source) (not $resource) -}}{{ errorf "Missing interactive figure resource: %s" .Position }}{{- end -}}
+{{- $all := $resource.Content | transform.Unmarshal -}}
+{{- $spec := index $all (.Get "data") -}}
+{{- if not $spec -}}{{ errorf "Unknown interactive figure %q: %s" (.Get "data") .Position }}{{- end -}}
+{{- if ne $spec.original (.Get "src") -}}{{ errorf "Interactive source mismatch: %s" .Position }}{{- end -}}
+{{- if not $spec.panels -}}{{ errorf "Interactive figure needs at least one panel: %s" .Position }}{{- end -}}
+{{- range $spec.panels -}}
+  {{- if or (not .label) (not (in (slice "table" "bars" "vector" "source-panel" "transcript") .kind)) -}}
+    {{- errorf "Interactive panel needs a label and a supported kind: %s" $.Position -}}
+  {{- end -}}
+{{- end -}}
+{{- $number := partial "research/figure-number.html" . -}}
+<figure class="research-interactive" id="figure-{{ $number }}" data-research-interactive data-original-src="{{ $source.RelPermalink }}" data-original-width="{{ $source.Width }}" data-original-height="{{ $source.Height }}">
+  <script type="application/json" data-figure-config>{{ $spec | jsonify | safeJS }}</script>
+  <div class="interactive-host" hidden></div>
+  <div class="interactive-fallback">
+    <img src="{{ $source.RelPermalink }}" alt="{{ .Get "alt" }}" width="{{ $source.Width }}" height="{{ $source.Height }}" loading="lazy" decoding="async">
+  </div>
+  {{ with .Get "caption" }}<figcaption><span class="figure-number">Figure {{ $number }}.</span> {{ . | markdownify }}</figcaption>{{ end }}
+</figure>

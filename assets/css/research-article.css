@@ -1,0 +1,98 @@
+:root {
+  color-scheme: light;
+  --ink: #171717;
+  --muted: #737373;
+  --rule: #e5e5e5;
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+* { box-sizing: border-box; }
+html { scroll-padding-top: 24px; -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: #fff; color: var(--ink); font: 17px/1.75 var(--sans); }
+a { color: inherit; text-underline-offset: 3px; text-decoration-thickness: 1px; }
+a:hover { color: #737373; }
+button { font: inherit; cursor: pointer; }
+:focus-visible { outline: 2px solid #171717; outline-offset: 4px; }
+::selection { background: #e8e8e8; }
+.skip-link { position: fixed; top: -100px; left: 20px; padding: 8px 16px; background: #171717; color: #fff; z-index: 10; }
+.skip-link:focus { top: 12px; }
+.article-shell { max-width: 824px; margin: 0 auto; padding: 0 32px; }
+.article-nav { display: flex; gap: 24px; margin: 44px 0 42px; font-size: 14px; }
+.article-nav a { text-decoration: none; }
+.article-header { margin-bottom: 28px; }
+.article-header h1 { margin: 0 0 18px; font-size: 36px; line-height: 1.22; font-weight: 550; letter-spacing: -.9px; }
+.article-meta { display: flex; gap: 10px; flex-wrap: wrap; margin: 0; font-size: 13px; line-height: 1.6; color: var(--muted); }
+.article-body > :first-child { margin-top: 0; }
+.article-body p { margin: 0 0 20px; }
+.article-body h2 { margin: 54px 0 20px; font-size: 26px; line-height: 1.35; font-weight: 550; letter-spacing: -.4px; }
+.article-body h3 { margin: 38px 0 18px; font-size: 20px; line-height: 1.4; font-weight: 550; letter-spacing: -.15px; }
+.article-body strong { font-weight: 600; }
+.article-body ul, .article-body ol { padding-left: 24px; margin: 20px 0; }
+.article-body li { padding-left: 3px; margin: 10px 0; }
+.article-body li p { margin: 0; }
+.article-body blockquote { border-left: 2px solid #dedede; margin: 26px 0 30px; padding: 0 0 0 17px; font-size: 16px; color: #525252; }
+.article-body blockquote p:last-child { margin-bottom: 0; }
+.article-body code { background: #f5f5f5; padding: 2px 4px; border-radius: 2px; font-size: .9em; }
+.article-body pre { overflow-x: auto; padding: 18px; background: #f7f7f7; }
+.article-body pre code { padding: 0; background: transparent; }
+.article-body mjx-container[display="true"] { display: block !important; overflow-x: auto; overflow-y: hidden; max-width: 100%; padding: 12px 0; scrollbar-width: thin; }
+
+.research-figure { margin: 32px 0 36px; }
+.research-figure.figure-wide { width: calc(100% + 128px); margin-left: -64px; margin-right: -64px; }
+.figure-media { display: block; cursor: zoom-in; }
+.figure-media img { display: block; width: 100%; height: auto; }
+.figure-media.figure-compact { max-width: 400px; margin-inline: auto; }
+.figure-media.figure-plain img, .figure-dialog img.figure-monochrome { filter: grayscale(1) contrast(1.6); }
+.research-figure figcaption { max-width: 760px; margin: 13px auto 0; color: var(--muted); font-size: 13px; line-height: 1.6; }
+.figure-number { color: #525252; font-weight: 500; }
+
+.article-contents { margin: 30px 0 38px; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); padding: 13px 0; font-size: 14px; }
+.article-contents summary { cursor: pointer; width: fit-content; }
+.article-contents summary::marker { color: var(--muted); font-size: 10px; }
+.article-contents nav { padding: 6px 0 2px; }
+.article-contents nav ul { margin: 12px 0; list-style: none; padding-left: 0; }
+.article-contents nav li { padding-left: 0; margin: 8px 0; line-height: 1.6; }
+.article-contents nav ul ul { padding-left: 18px; font-size: 13px; }
+.article-contents nav a { text-decoration: none; color: #525252; }
+.article-contents nav a:hover { color: #171717; text-decoration: underline; }
+
+.research-table { overflow-x: auto; margin: 28px 0; scrollbar-width: thin; }
+.research-table table { width: 100%; border-collapse: collapse; font-size: 14px; line-height: 1.5; }
+.research-table th, .research-table td { padding: 12px 16px 12px 0; border-bottom: 1px solid var(--rule); text-align: left; min-width: 120px; }
+.research-table th { font-weight: 550; }
+.article-footer { display: flex; justify-content: space-between; gap: 24px; border-top: 1px solid var(--rule); margin-top: 64px; padding: 24px 0 36px; font-size: 12px; color: var(--muted); }
+.article-footer a { text-decoration: none; }
+
+.figure-dialog { max-width: min(96vw, 1800px); width: fit-content; max-height: 94vh; padding: 54px 24px 22px; border: 0; background: #fff; overflow: auto; }
+.figure-dialog::backdrop { background: #000b; }
+.figure-dialog img { display: block; max-width: 100%; width: auto; height: auto; max-height: 73vh; object-fit: contain; margin: auto; }
+.figure-dialog p { font-size: 13px; line-height: 1.6; max-width: 1000px; margin: 18px auto 0; color: #525252; }
+.dialog-close { position: absolute; top: 12px; right: 18px; background: transparent; border: 0; color: var(--ink); font-size: 13px; padding: 6px; }
+.dialog-close span { font-size: 20px; margin-left: 12px; vertical-align: -1px; }
+body.figure-is-open { overflow: hidden; }
+
+@media (max-width: 960px) {
+  .research-figure.figure-wide { width: 100%; margin-left: 0; margin-right: 0; }
+}
+@media (max-width: 600px) {
+  body { font-size: 16px; line-height: 1.75; }
+  .article-shell { padding: 0 24px; }
+  .article-nav { margin: 28px 0 30px; font-size: 13px; gap: 22px; }
+  .article-header h1 { font-size: 28px; line-height: 1.25; letter-spacing: -.6px; margin-bottom: 16px; }
+  .article-meta { font-size: 12px; gap: 8px; }
+  .article-header { margin-bottom: 26px; }
+  .article-body h2 { font-size: 23px; margin-top: 42px; }
+  .article-body h3 { font-size: 19px; margin-top: 30px; }
+  .article-body blockquote { font-size: 15px; padding-left: 14px; }
+  .research-figure { margin: 28px 0; }
+  .research-figure figcaption { font-size: 12px; }
+  .article-contents { font-size: 13px; margin: 26px 0 34px; }
+  .article-footer { margin-top: 42px; font-size: 11px; }
+  .figure-dialog { max-width: 98vw; padding: 50px 12px 16px; }
+  .figure-dialog p { font-size: 12px; }
+}
+@media print {
+  .article-nav, .article-footer, .figure-dialog { display: none; }
+  .article-shell { max-width: none; padding: 0; }
+  .research-figure.figure-wide { width: 100%; margin-left: 0; margin-right: 0; }
+  .research-figure { break-inside: avoid; }
+}

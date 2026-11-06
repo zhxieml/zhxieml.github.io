@@ -1,0 +1,10 @@
+{{- /* Derive numbering from source order, not state that survives Hugo rebuilds. */ -}}
+{{- $calls := findRE `(?s)\{\{[<%]\s*[\w-]+\b.*?[>%]\}\}` .Page.RawContent -}}
+{{- $before := first (add .Ordinal 1) $calls -}}
+{{- $number := 0 -}}
+{{- range $before -}}
+  {{- if findRE `^\{\{[<%]\s*research-(figure|interactive)\b` . -}}
+    {{- $number = add $number 1 -}}
+  {{- end -}}
+{{- end -}}
+{{- return $number -}}

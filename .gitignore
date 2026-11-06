@@ -28,5 +28,9 @@ Gemfile.lock
 node_modules
 package-lock.json
 
+# Python helper caches
+__pycache__/
+*.py[cod]
+
 # zip file
 *zip

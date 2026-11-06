@@ -1,0 +1,5 @@
+{{- $image := .Page.Resources.GetMatch .Destination -}}
+{{- $plain := in (.Page.Params.plain_images | default (slice)) .Destination -}}
+<a class="figure-media{{ with $image }}{{ if gt .Height .Width }} figure-compact{{ end }}{{ end }}{{ if $plain }} figure-plain{{ end }}" href="{{ .Destination | safeURL }}" data-figure-open aria-label="Enlarge figure">
+  <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}"{{ with $image }} width="{{ .Width }}" height="{{ .Height }}"{{ end }} loading="lazy" decoding="async">
+</a>

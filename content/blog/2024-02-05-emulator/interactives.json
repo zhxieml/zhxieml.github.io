@@ -1,0 +1,472 @@
+{
+  "improvements": {
+    "original": "Untitled_1.png",
+    "panels": [
+      {
+        "label": "Anthropic-HH · Small base, Large reward (top)",
+        "kind": "bars",
+        "rows": [
+          {
+            "label": "Llama-1 · Helpfulness",
+            "value": 0.65,
+            "display": "0.65",
+            "series": "Helpfulness"
+          },
+          {
+            "label": "Llama-1 · Factuality",
+            "value": 0.31,
+            "display": "0.31",
+            "series": "Factuality"
+          },
+          {
+            "label": "Llama-2 · Helpfulness",
+            "value": 0.91,
+            "display": "0.91",
+            "series": "Helpfulness"
+          },
+          {
+            "label": "Llama-2 · Factuality",
+            "value": 0.4,
+            "display": "0.40",
+            "series": "Factuality"
+          },
+          {
+            "label": "Falcon · Helpfulness",
+            "value": 0.67,
+            "display": "0.67",
+            "series": "Helpfulness"
+          },
+          {
+            "label": "Falcon · Factuality",
+            "value": -2.39,
+            "display": "-2.39",
+            "series": "Factuality"
+          }
+        ],
+        "axis": "Anthropic-HH improvement (normalized between small & large chat models)",
+        "domain": [
+          -2.5,
+          1.1
+        ]
+      },
+      {
+        "label": "Anthropic-HH · Large base, Small reward (bottom)",
+        "kind": "bars",
+        "rows": [
+          {
+            "label": "Llama-1 · Helpfulness",
+            "value": 0.38,
+            "display": "0.38",
+            "series": "Helpfulness"
+          },
+          {
+            "label": "Llama-1 · Factuality",
+            "value": 0.77,
+            "display": "0.77",
+            "series": "Factuality"
+          },
+          {
+            "label": "Llama-2 · Helpfulness",
+            "value": 0.31,
+            "display": "0.31",
+            "series": "Helpfulness"
+          },
+          {
+            "label": "Llama-2 · Factuality",
+            "value": 1.04,
+            "display": "1.04",
+            "series": "Factuality"
+          },
+          {
+            "label": "Falcon · Helpfulness",
+            "value": 0.25,
+            "display": "0.25",
+            "series": "Helpfulness"
+          },
+          {
+            "label": "Falcon · Factuality",
+            "value": 0.58,
+            "display": "0.58",
+            "series": "Factuality"
+          }
+        ],
+        "axis": "Anthropic-HH improvement (normalized between small & large chat models)",
+        "domain": [
+          -2.5,
+          1.1
+        ]
+      },
+      {
+        "label": "ELI5 · Small base, Large reward (top)",
+        "kind": "bars",
+        "rows": [
+          {
+            "label": "Llama-1 · Helpfulness",
+            "value": 0.83,
+            "display": "0.83",
+            "series": "Helpfulness"
+          },
+          {
+            "label": "Llama-1 · Factuality",
+            "value": 0.79,
+            "display": "0.79",
+            "series": "Factuality"
+          },
+          {
+            "label": "Llama-2 · Helpfulness",
+            "value": 0.69,
+            "display": "0.69",
+            "series": "Helpfulness"
+          },
+          {
+            "label": "Llama-2 · Factuality",
+            "value": 0.34,
+            "display": "0.34",
+            "series": "Factuality"
+          },
+          {
+            "label": "Falcon · Helpfulness",
+            "value": 0.64,
+            "display": "0.64",
+            "series": "Helpfulness"
+          },
+          {
+            "label": "Falcon · Factuality",
+            "value": -1.53,
+            "display": "-1.53",
+            "series": "Factuality"
+          }
+        ],
+        "axis": "ELI5 improvement (normalized between small & large chat models)",
+        "domain": [
+          -2.5,
+          1.1
+        ]
+      },
+      {
+        "label": "ELI5 · Large base, Small reward (bottom)",
+        "kind": "bars",
+        "rows": [
+          {
+            "label": "Llama-1 · Helpfulness",
+            "value": 0.09,
+            "display": "0.09",
+            "series": "Helpfulness"
+          },
+          {
+            "label": "Llama-1 · Factuality",
+            "value": 0.43,
+            "display": "0.43",
+            "series": "Factuality"
+          },
+          {
+            "label": "Llama-2 · Helpfulness",
+            "value": 0.4,
+            "display": "0.40",
+            "series": "Helpfulness"
+          },
+          {
+            "label": "Llama-2 · Factuality",
+            "value": 0.64,
+            "display": "0.64",
+            "series": "Factuality"
+          },
+          {
+            "label": "Falcon · Helpfulness",
+            "value": 0.39,
+            "display": "0.39",
+            "series": "Helpfulness"
+          },
+          {
+            "label": "Falcon · Factuality",
+            "value": 0.58,
+            "display": "0.58",
+            "series": "Factuality"
+          }
+        ],
+        "axis": "ELI5 improvement (normalized between small & large chat models)",
+        "domain": [
+          -2.5,
+          1.1
+        ]
+      }
+    ]
+  },
+  "frontier": {
+    "original": "Untitled_2.png",
+    "panels": [
+      {
+        "label": "Dynamic Helpful-Harmful Tradeoff",
+        "kind": "source-panel",
+        "rect": [
+          0,
+          0,
+          759,
+          561
+        ]
+      }
+    ]
+  },
+  "speed": {
+    "original": "Untitled_4.png",
+    "panels": [
+      {
+        "label": "Toks/sec (HH)",
+        "kind": "bars",
+        "rows": [
+          {
+            "label": "None",
+            "value": 6.0,
+            "display": "6.0",
+            "series": ""
+          },
+          {
+            "label": "2",
+            "value": 9.2,
+            "display": "9.2",
+            "series": ""
+          },
+          {
+            "label": "4",
+            "value": 12.5,
+            "display": "12.5",
+            "series": ""
+          },
+          {
+            "label": "8",
+            "value": 13.8,
+            "display": "13.8",
+            "series": ""
+          },
+          {
+            "label": "16",
+            "value": 12.1,
+            "display": "12.1",
+            "series": ""
+          }
+        ],
+        "axis": "Toks/sec (HH)",
+        "category": "Spec. Block size",
+        "reference": [
+          {
+            "label": "70B policy",
+            "value": 9.3,
+            "display": "9.3"
+          },
+          {
+            "label": "7B policy",
+            "value": 28.0,
+            "display": "28.0"
+          }
+        ]
+      },
+      {
+        "label": "Toks/sec (ELI5)",
+        "kind": "bars",
+        "rows": [
+          {
+            "label": "None",
+            "value": 6.1,
+            "display": "6.1",
+            "series": ""
+          },
+          {
+            "label": "2",
+            "value": 9.5,
+            "display": "9.5",
+            "series": ""
+          },
+          {
+            "label": "4",
+            "value": 13.2,
+            "display": "13.2",
+            "series": ""
+          },
+          {
+            "label": "8",
+            "value": 15.1,
+            "display": "15.1",
+            "series": ""
+          },
+          {
+            "label": "16",
+            "value": 14.2,
+            "display": "14.2",
+            "series": ""
+          }
+        ],
+        "axis": "Toks/sec (ELI5)",
+        "category": "Spec. Block size",
+        "reference": [
+          {
+            "label": "70B policy",
+            "value": 9.3,
+            "display": "9.3"
+          },
+          {
+            "label": "7B policy",
+            "value": 28.0,
+            "display": "28.0"
+          }
+        ]
+      }
+    ]
+  },
+  "amplification": {
+    "original": "Untitled_5.png",
+    "panels": [
+      {
+        "label": "HumanEval coding performance (left)",
+        "kind": "bars",
+        "rows": [
+          {
+            "label": "7B-chat",
+            "value": 0.128,
+            "display": "0.128",
+            "series": ""
+          },
+          {
+            "label": "70B-base",
+            "value": 0.207,
+            "display": "0.207",
+            "series": ""
+          },
+          {
+            "label": "EFT 7B→70B (β = 1.0)",
+            "value": 0.22,
+            "display": "0.220",
+            "series": ""
+          },
+          {
+            "label": "EFT 7B→70B (β = 1.2)",
+            "value": 0.244,
+            "display": "0.244",
+            "series": ""
+          },
+          {
+            "label": "EFT 7B→70B (β = 1.5)",
+            "value": 0.256,
+            "display": "0.256",
+            "series": ""
+          },
+          {
+            "label": "70B-chat",
+            "value": 0.28,
+            "display": "0.280",
+            "series": ""
+          }
+        ],
+        "axis": "HumanEval pass@1 solve rate",
+        "domain": [
+          0,
+          0.3
+        ]
+      },
+      {
+        "label": "ELI5 factuality and helpfulness (right)",
+        "kind": "source-panel",
+        "rect": [
+          1250,
+          0,
+          589,
+          479
+        ]
+      }
+    ]
+  },
+  "truncation": {
+    "original": "Untitled_6.png",
+    "panels": [
+      {
+        "label": "Errors/prompt",
+        "kind": "bars",
+        "rows": [
+          {
+            "label": "None",
+            "value": 0.3,
+            "display": "0.300",
+            "series": ""
+          },
+          {
+            "label": "0.95",
+            "value": 0.289,
+            "display": "0.289",
+            "series": ""
+          },
+          {
+            "label": "0.9",
+            "value": 0.352,
+            "display": "0.352",
+            "series": ""
+          },
+          {
+            "label": "0.8",
+            "value": 0.348,
+            "display": "0.348",
+            "series": ""
+          }
+        ],
+        "axis": "Errors/prompt",
+        "category": "Truncation"
+      },
+      {
+        "label": "Helpfulness",
+        "kind": "bars",
+        "rows": [
+          {
+            "label": "None",
+            "value": 66.8,
+            "display": "66.8",
+            "series": ""
+          },
+          {
+            "label": "0.95",
+            "value": 67.0,
+            "display": "67.0",
+            "series": ""
+          },
+          {
+            "label": "0.9",
+            "value": 67.2,
+            "display": "67.2",
+            "series": ""
+          },
+          {
+            "label": "0.8",
+            "value": 67.0,
+            "display": "67.0",
+            "series": ""
+          }
+        ],
+        "axis": "Helpfulness",
+        "category": "Truncation"
+      }
+    ]
+  },
+  "reverse": {
+    "original": "Untitled_9.png",
+    "panels": [
+      {
+        "label": "Weak Models / Strong Model",
+        "kind": "source-panel",
+        "rect": [
+          0,
+          0,
+          1835,
+          955
+        ]
+      },
+      {
+        "label": "Final output",
+        "kind": "source-panel",
+        "rect": [
+          1835,
+          0,
+          945,
+          955
+        ]
+      }
+    ]
+  },
+  "source": "https://arxiv.org/abs/2310.12962"
+}
